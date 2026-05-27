@@ -1,5 +1,5 @@
-from moviepy.editor import VideoFileClip, concatenate_videoclips, AudioFileClip, CompositeAudioClip
-from moviepy.video.fx.all import fadein, fadeout
+from moviepy import VideoFileClip, concatenate_videoclips, AudioFileClip, CompositeAudioClip
+from moviepy.video.fx import fadein, fadeout
 from pydub import AudioSegment
 import tempfile
 import whisper
